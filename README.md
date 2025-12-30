@@ -81,6 +81,14 @@ Once you're happy with the logic:
 - Good enough for many casual or prototype use cases  
 - Fast response times even on low-end hardware
 
+run api with : you may replace main with file where your api code is present
+
+
+
+    uvicorn main:app --reload
+
+
+
 If you later need much higher accuracy (especially for subtle hate speech), you can replace the VADER part with a fine-tuned transformer model — but that's a bigger step and not needed for most simple applications.
 
 Feel free to start with this version and tweak it as your needs evolve!
