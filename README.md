@@ -1,4 +1,4 @@
-# Simple Text Sentiment Classifier API
+# Hate Speech Detection API
 
 This is a lightweight web API that takes any text input and classifies it as one of three categories:  
 **hateful** – strongly negative / toxic  
